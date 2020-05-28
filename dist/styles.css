@@ -202,7 +202,7 @@
     .awssld--fill-parent .awssld__container {
       height: 100%;
       padding: 0; }
-  .awssld__range {
+  .awssld__range__wrap {
       z-index:1000;
   }
   .awssld__bullets {

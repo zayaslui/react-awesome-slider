@@ -17,15 +17,13 @@ const [ value, setValue ] = useState(0);
     	{...props}
 		value={value}
 		tooltipLabel={ (label) => {
-			console.log(label)
 			return periodos[label]
 		}}
 		onChange={changeEvent => {
 			let numero =  parseInt(changeEvent.target.value)
+			console.log(numero)
 			setValue(numero);
-			setTimeout( () => {
-				props.funcion(numero)
-			},2000)
+			props.funcion(numero)
 		}}
     />
   );  
