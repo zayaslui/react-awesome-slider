@@ -11,9 +11,8 @@ const defaultProps = {
 
 function Slider(props){
 const [ value, setValue ] = useState(0);
-
 	React.useEffect( () => {
-		if(props.indice)
+		if(props.indice || props.indice===0)
 		setValue(props.indice)
 	},[props.indice])
 
