@@ -1,7 +1,7 @@
 .next/
 .next/*
 
-dist
+#dist
 
 # Logs
 logs
