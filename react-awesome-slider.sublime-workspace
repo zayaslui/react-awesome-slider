@@ -559,7 +559,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 1017,
+				"buffer_size": 1018,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -814,7 +814,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -980,15 +980,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1017,
+						"buffer_size": 1018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1017,
-								1017
+								17,
+								17
 							]
 						],
 						"settings":
@@ -996,7 +996,7 @@
 							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1160.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

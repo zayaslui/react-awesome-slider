@@ -64,8 +64,7 @@
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; 
-            z-index: 1000;
+              justify-content: center;
           }
     .awssld__startUp img {
       width: 35%;
@@ -215,7 +214,8 @@
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+            z-index: 1000; }
     .awssld__bullets button {
       padding: 0;
       display: block;
