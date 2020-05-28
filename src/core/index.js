@@ -61,6 +61,7 @@ export default class AwesomeSlider extends React.Component {
   static defaultProps = {
     animation: null,
     bullets: true,
+    range:true,
     buttonContentLeft: null,
     buttonContentRight: null,
     buttons: true,
@@ -957,6 +958,7 @@ export default class AwesomeSlider extends React.Component {
       cssModule,
       organicArrows,
       bullets,
+      range,
       style,
       customContent,
       buttons,
@@ -1019,25 +1021,27 @@ export default class AwesomeSlider extends React.Component {
           />
         )}
       </div>
-      <div
-          style={{
-            margin:"50px",
-          }}
-      >
-        <Slider 
-            indice={this.index}
-            className={"awssld__range"}
-            max={this.media.length-1}
-            funcion={ (index) => {
-              this.setState({index:index})
-              let direccion = this.checkIndex(index);
-              console.log(direccion)
-              let info = {index: index, direction: direccion}
-              this.onTransitionRequest('bullet', info.index);
-              this.goTo(info);
+      { range && (
+        <div
+            style={{
+              margin:"50px",
             }}
-        />
-      </div>
+        >
+          <Slider 
+              indice={this.index}
+              className={"awssld__range"}
+              max={this.media.length-1}
+              funcion={ (index) => {
+                this.setState({index:index})
+                let direccion = this.checkIndex(index);
+                console.log(direccion)
+                let info = {index: index, direction: direccion}
+                this.onTransitionRequest('bullet', info.index);
+                this.goTo(info);
+              }}
+          />
+        </div>
+      )}
       </>
     );
   }
