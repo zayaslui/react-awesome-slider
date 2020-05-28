@@ -1021,7 +1021,6 @@ export default class AwesomeSlider extends React.Component {
       </div>
       <div
           style={{
-            zIndex:1000,
             margin:"50px",
           }}
       >
@@ -1037,6 +1036,7 @@ export default class AwesomeSlider extends React.Component {
         >Mandar al 0
         </button>
         <Slider 
+            className={"awssld__range"}
             max={this.media.length-1}
             funcion={ (index) => {
             let direccion = this.checkIndex(index);
