@@ -1024,25 +1024,16 @@ export default class AwesomeSlider extends React.Component {
             margin:"50px",
           }}
       >
-        <button
-          onClick={ e =>{
-            //get current bullet
-            let index = 0;
-            let direccion = this.checkIndex(index);
-            let info = {index: index, direction: direccion}
-            this.onTransitionRequest('bullet', info.index);
-            this.goTo(info);
-          }}
-        >Mandar al 0
-        </button>
         <Slider 
+            indice={this.index}
             className={"awssld__range"}
             max={this.media.length-1}
             funcion={ (index) => {
-            let direccion = this.checkIndex(index);
-            let info = {index: index, direction: direccion}
-            this.onTransitionRequest('bullet', info.index);
-            this.goTo(info);
+              this.setState({index:index})
+              let direccion = this.checkIndex(index);
+              let info = {index: index, direction: direccion}
+              this.onTransitionRequest('bullet', info.index);
+              this.goTo(info);
             }}
         />
       </div>

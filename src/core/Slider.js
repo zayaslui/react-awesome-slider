@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 
-const periodos = [ 2012 , 2013 , 2014, 2015]
+const periodos = [ 2013 , 2014 , 2015, 2016]
 
 const defaultProps = {
 	min:0,
@@ -10,7 +10,12 @@ const defaultProps = {
 }
 
 function Slider(props){
-const [ value, setValue ] = useState(0); 
+const [ value, setValue ] = useState(0);
+
+	React.useEffect( () => {
+		if(props.indice)
+		setValue(props.indice)
+	},[props.indice])
 
   return (
     <RangeSlider
@@ -21,7 +26,6 @@ const [ value, setValue ] = useState(0);
 		}}
 		onChange={changeEvent => {
 			let numero =  parseInt(changeEvent.target.value)
-			console.log(numero)
 			setValue(numero);
 			props.funcion(numero)
 		}}
