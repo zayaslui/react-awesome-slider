@@ -91,6 +91,8 @@ export default class AwesomeSlider extends React.Component {
     style: {},
     transitionDelay: 0,
     mobileTouch: true,
+    sizeSlider:"sm",
+    slider:null
   };
 
   constructor(props) {
@@ -964,6 +966,8 @@ export default class AwesomeSlider extends React.Component {
       buttons,
       buttonContentLeft,
       buttonContentRight,
+      sizeSlider,
+      slider
     } = this.props;
     const { rootElement } = this;
 
@@ -1027,9 +1031,10 @@ export default class AwesomeSlider extends React.Component {
               margin:"50px",
             }}
         >
-          <Slider 
+          <Slider
+              size={sizeSlider}
+              cssModule={mergeStyles(cssModule)}
               indice={this.index}
-              className={"awssld__range"}
               max={this.media.length-1}
               funcion={ (index) => {
                 this.setState({index:index})
@@ -1041,6 +1046,9 @@ export default class AwesomeSlider extends React.Component {
               }}
           />
         </div>
+      )}
+      { slider && (
+        <slider />
       )}
       </>
     );

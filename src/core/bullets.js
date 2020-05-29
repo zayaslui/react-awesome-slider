@@ -20,7 +20,8 @@ export default class Bullets extends React.Component {
 
   constructor(props) {
     super(props);
-    this.rootElement = props.rootElement;
+    this.rootElement = props.rootElement;  //awssld
+    console.log(props)
   }
 
   bulletClick = event => {

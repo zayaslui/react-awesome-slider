@@ -6,14 +6,19 @@ const periodos = [ 2013 , 2014 , 2015, 2016]
 
 const defaultProps = {
 	min:0,
-	max:10
+	max:10,
+	cssModule: null,
+	size:"sm"
 }
 
 function Slider(props){
-const [ value, setValue ] = useState(0);
+	const [ value, setValue ] = useState(0);
+
+	// console.log(props)
+
 	React.useEffect( () => {
 		if(props.indice || props.indice===0)
-		setValue(props.indice)
+		setValue(props.indice)	
 	},[props.indice])
 
   return (
@@ -24,9 +29,9 @@ const [ value, setValue ] = useState(0);
 			return periodos[label]
 		}}
 		onChange={changeEvent => {
-			let numero =  parseInt(changeEvent.target.value)
+			let numero =  parseInt(changeEvent.target.value);
 			setValue(numero);
-			props.funcion(numero)
+			props.funcion(numero);
 		}}
     />
   );  
