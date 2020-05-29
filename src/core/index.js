@@ -1024,6 +1024,9 @@ export default class AwesomeSlider extends React.Component {
             }}
           />
         )}
+        { Mslider && (
+          <Mslider />
+        )}
       </div>
       { range && (
         <div
@@ -1046,9 +1049,6 @@ export default class AwesomeSlider extends React.Component {
               }}
           />
         </div>
-      )}
-      { Mslider && (
-        <Mslider />
       )}
       </>
     );

@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28317,
+				"buffer_size": 28324,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -875,7 +875,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -884,15 +884,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28317,
+						"buffer_size": 28324,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28281,
-								28281
+								27638,
+								27638
 							]
 						],
 						"settings":
@@ -902,10 +902,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23785.0,
+						"translation.y": 23404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -933,7 +933,7 @@
 						"translation.y": 261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1053,7 +1053,7 @@
 						"translation.y": 4708.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
