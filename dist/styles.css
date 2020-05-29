@@ -204,11 +204,11 @@
       padding: 0; }
   .range-slider__wrap {
       z-index:1000;
-      margin:500px;
+      margin:0px;
   }
   .range-slider {
       z-index:1000;
-      margin:500px;
+      margin:0px;
   }  
   .awssld__bullets {
     position: absolute;

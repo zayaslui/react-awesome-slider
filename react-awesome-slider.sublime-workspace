@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28234,
+				"buffer_size": 28317,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -568,7 +568,7 @@
 			"file": "dist/styles.css",
 			"settings":
 			{
-				"buffer_size": 17069,
+				"buffer_size": 17065,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -875,7 +875,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -884,15 +884,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28234,
+						"buffer_size": 28317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27744,
-								27744
+								28281,
+								28281
 							]
 						],
 						"settings":
@@ -902,7 +902,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23476.0,
+						"translation.y": 23785.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -930,10 +930,10 @@
 							"syntax": "Packages/JSX/JSX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1032,15 +1032,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17069,
+						"buffer_size": 17065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7293,
-								7162
+								6991,
+								6991
 							]
 						],
 						"settings":
@@ -1050,10 +1050,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4271.0,
+						"translation.y": 4708.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
