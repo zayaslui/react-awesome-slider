@@ -92,7 +92,7 @@ export default class AwesomeSlider extends React.Component {
     transitionDelay: 0,
     mobileTouch: true,
     sizeSlider:"sm",
-    slider:null
+    Mslider:null
   };
 
   constructor(props) {
@@ -967,7 +967,7 @@ export default class AwesomeSlider extends React.Component {
       buttonContentLeft,
       buttonContentRight,
       sizeSlider,
-      slider
+      Mslider
     } = this.props;
     const { rootElement } = this;
 
@@ -1047,8 +1047,8 @@ export default class AwesomeSlider extends React.Component {
           />
         </div>
       )}
-      { slider && (
-        <slider />
+      { Mslider && (
+        <Mslider />
       )}
       </>
     );
