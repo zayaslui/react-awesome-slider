@@ -994,6 +994,11 @@ export default class AwesomeSlider extends React.Component {
           >
             {this.renderBox('A')}
             {this.renderBox('B')}
+            <div className="periodo">
+              { Mslider && (
+                <Mslider />
+              )}
+            </div>
           </div>
           {buttons && (
             <Buttons
@@ -1024,16 +1029,8 @@ export default class AwesomeSlider extends React.Component {
             }}
           />
         )}
-        { Mslider && (
-          <Mslider />
-        )}
       </div>
       { range && (
-        <div
-            style={{
-              margin:"50px",
-            }}
-        >
           <Slider
               size={sizeSlider}
               cssModule={mergeStyles(cssModule)}
@@ -1048,7 +1045,6 @@ export default class AwesomeSlider extends React.Component {
                 this.goTo(info);
               }}
           />
-        </div>
       )}
       </>
     );
