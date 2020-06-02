@@ -523,8 +523,16 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28220,
+				"buffer_size": 28295,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 3452,
 				"line_ending": "Unix"
 			}
 		},
@@ -689,8 +697,7 @@
 	"expanded_folders":
 	[
 		"/var/www/html/reactjs/react-awesome-slider",
-		"/var/www/html/reactjs/react-awesome-slider/src",
-		"/var/www/html/reactjs/react-awesome-slider/src/helpers"
+		"/var/www/html/reactjs/react-awesome-slider/src"
 	],
 	"file_history":
 	[
@@ -839,6 +846,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"awe",
 			"Mslider",
 			"mergeStyles",
 			"merge",
@@ -876,7 +884,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -885,15 +893,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28220,
+						"buffer_size": 28295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27558,
-								27175
+								26669,
+								26669
 							]
 						],
 						"settings":
@@ -903,14 +911,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23083.0,
+						"translation.y": 22651.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/icons/Langs/Npm (JSON).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "src/core/Slider.js",
 					"semi_transient": false,
 					"settings":
@@ -934,11 +972,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "src/helpers/components.js",
 					"semi_transient": false,
 					"settings":
@@ -964,11 +1002,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "src/core/bullets.js",
 					"semi_transient": false,
 					"settings":
@@ -994,11 +1032,11 @@
 						"translation.y": 410.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "demo/examples/example/autoplay.js",
 					"semi_transient": false,
 					"settings":
@@ -1024,11 +1062,11 @@
 						"translation.y": 882.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "dist/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -1054,11 +1092,11 @@
 						"translation.y": 4708.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1084,11 +1122,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -1112,7 +1150,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
