@@ -997,7 +997,13 @@ export default class AwesomeSlider extends React.Component {
             <div className="periodo">
                   <Mslider
                     funcion={ (index) => {
-                        console.log(index);
+                        console.log(typeof(index),index);
+                        this.setState({index:index})
+                        let direccion = this.checkIndex(index);
+                        console.log(direccion)
+                        let info = {index: index, direction: direccion}
+                        this.onTransitionRequest('bullet', info.index);
+                        this.goTo(info);
                     }}
                   />
             </div>
