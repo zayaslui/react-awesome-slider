@@ -838,6 +838,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Mslider",
 			"awe",
 			"Mslider",
 			"mergeStyles",
@@ -892,8 +893,8 @@
 						"selection":
 						[
 							[
-								26748,
-								26748
+								26016,
+								26023
 							]
 						],
 						"settings":
@@ -903,7 +904,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22800.0,
+						"translation.y": 22010.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
