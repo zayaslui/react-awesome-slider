@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28298,
+				"buffer_size": 28251,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -886,15 +886,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28298,
+						"buffer_size": 28251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26016,
-								26023
+								26698,
+								26698
 							]
 						],
 						"settings":
@@ -904,7 +904,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22010.0,
+						"translation.y": 22557.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -932,7 +932,7 @@
 							"syntax": "Packages/JSX/JSX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 301.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
