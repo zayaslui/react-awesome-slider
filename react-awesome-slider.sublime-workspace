@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28379,
+				"buffer_size": 28746,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -837,6 +837,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"index",
 			"Mslider",
 			"awe",
 			"Mslider",
@@ -876,7 +877,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -885,15 +886,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28379,
+						"buffer_size": 28746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27939,
-								27939
+								25203,
+								25203
 							]
 						],
 						"settings":
@@ -903,10 +904,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23300.0,
+						"translation.y": 21298.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -922,8 +923,8 @@
 						"selection":
 						[
 							[
-								742,
-								742
+								491,
+								491
 							]
 						],
 						"settings":
@@ -931,10 +932,10 @@
 							"syntax": "Packages/JSX/JSX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 226.0,
+						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{

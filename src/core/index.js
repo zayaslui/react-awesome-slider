@@ -996,11 +996,12 @@ export default class AwesomeSlider extends React.Component {
             {this.renderBox('B')}
             <div className="periodo">
                   <Mslider
+                    indice={this.index}
                     funcion={ (index) => {
-                        console.log(typeof(index),index);
+                        //console.log(typeof(index),index);
                         this.setState({index:index})
                         let direccion = this.checkIndex(index);
-                        console.log(direccion)
+                        //console.log(direccion)
                         let info = {index: index, direction: direccion}
                         this.onTransitionRequest('bullet', info.index);
                         this.goTo(info);
