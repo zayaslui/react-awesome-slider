@@ -995,7 +995,11 @@ export default class AwesomeSlider extends React.Component {
             {this.renderBox('A')}
             {this.renderBox('B')}
             <div className="periodo">
-                  <Mslider />
+                  <Mslider
+                    funcion={ (index) => {
+                        console.log(index);
+                    }}
+                  />
             </div>
           </div>
           {buttons && (

@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28251,
+				"buffer_size": 28379,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -688,8 +688,7 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/reactjs/react-awesome-slider",
-		"/var/www/html/reactjs/react-awesome-slider/src"
+		"/var/www/html/reactjs/react-awesome-slider"
 	],
 	"file_history":
 	[
@@ -886,15 +885,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28251,
+						"buffer_size": 28379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26698,
-								26698
+								28016,
+								28016
 							]
 						],
 						"settings":
@@ -904,7 +903,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22557.0,
+						"translation.y": 23499.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -923,8 +922,8 @@
 						"selection":
 						[
 							[
-								231,
-								231
+								742,
+								720
 							]
 						],
 						"settings":
@@ -932,7 +931,7 @@
 							"syntax": "Packages/JSX/JSX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 301.0,
+						"translation.y": 226.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
