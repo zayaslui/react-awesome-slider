@@ -523,7 +523,7 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28290,
+				"buffer_size": 28298,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -885,15 +885,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28290,
+						"buffer_size": 28298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26692,
-								26692
+								26748,
+								26748
 							]
 						],
 						"settings":
@@ -922,8 +922,8 @@
 						"selection":
 						[
 							[
-								230,
-								230
+								231,
+								231
 							]
 						],
 						"settings":
