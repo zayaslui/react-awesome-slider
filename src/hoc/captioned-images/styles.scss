@@ -16,7 +16,7 @@
       align-items: center;
       justify-content: center;
 
-      div {
+      p {
         background-color: var(--caption-background-color2);
         padding: 10px 20px;
         color: #fff;
@@ -79,7 +79,7 @@
 
     &--exit {
       [data-type='parrafo'] {
-        div {
+        p {
           transition: transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms,
             opacity 275ms ease-out 175ms;
         }
@@ -97,7 +97,7 @@
 
     &--moveLeft {
       [data-type='parrafo'] {
-        div {
+        p {
           transform: translate3d(-50px, 0, 0.01px);
           opacity: 0;
         }
@@ -115,7 +115,7 @@
 
     &--moveRight {
       [data-type='parrafo'] {
-        div {
+        p {
           transform: translate3d(50px, 0, 0.01px);
           opacity: 0;
         }
