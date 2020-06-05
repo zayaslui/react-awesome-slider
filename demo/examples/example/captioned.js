@@ -63,21 +63,25 @@ function transitionStart(slider) {
 const media = [
   {
     backgroundColor: '#4a9c8c',
+    parrafo:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore.",
     media: '/images/series/ricknmorty-3.png',
     caption: 'I want to see what you got.',
   },
   {
     backgroundColor: '#463277',
+    parrafo:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore.",
     media: '/images/series/ricknmorty-1.jpg',
     caption: "The answer is -- Don't think about it.",
   },
   {
     backgroundColor: '#faf3d5',
+    parrafo:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore.",
     media: '/images/series/ricknmorty-4.jpg',
     caption: 'Sometimes science is more art than science.',
   },
   {
     backgroundColor: '#9a9a9a',
+    parrafo:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore.",
     media: '/images/series/ricknmorty-2.jpg',
     caption: 'Love, connection, experience.',
   },

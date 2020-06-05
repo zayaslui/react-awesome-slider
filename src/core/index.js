@@ -61,7 +61,7 @@ export default class AwesomeSlider extends React.Component {
   static defaultProps = {
     animation: null,
     bullets: true,
-    range:true,
+    range:false,
     buttonContentLeft: null,
     buttonContentRight: null,
     buttons: true,
@@ -92,7 +92,8 @@ export default class AwesomeSlider extends React.Component {
     transitionDelay: 0,
     mobileTouch: true,
     sizeSlider:"sm",
-    Mslider:null
+    Mslider:null,
+    MsliderShow:false
   };
 
   constructor(props) {
@@ -967,7 +968,8 @@ export default class AwesomeSlider extends React.Component {
       buttonContentLeft,
       buttonContentRight,
       sizeSlider,
-      Mslider
+      Mslider,
+      MsliderShow
     } = this.props;
     const { rootElement } = this;
 
@@ -995,6 +997,7 @@ export default class AwesomeSlider extends React.Component {
             {this.renderBox('A')}
             {this.renderBox('B')}
             <div className="periodo">
+                { MsliderShow && (
                   <Mslider
                     indice={this.index}
                     funcion={ (index) => {
@@ -1007,6 +1010,7 @@ export default class AwesomeSlider extends React.Component {
                         this.goTo(info);
                     }}
                   />
+                )}
             </div>
           </div>
           {buttons && (

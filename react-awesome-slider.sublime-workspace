@@ -523,61 +523,51 @@
 			"file": "src/core/index.js",
 			"settings":
 			{
-				"buffer_size": 28746,
+				"buffer_size": 28883,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/core/Slider.js",
+			"file": "demo/examples/example/lettering.js",
 			"settings":
 			{
-				"buffer_size": 823,
+				"buffer_size": 3364,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/helpers/components.js",
+			"file": "demo/examples/example/captioned.js",
 			"settings":
 			{
-				"buffer_size": 2844,
+				"buffer_size": 5162,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/core/bullets.js",
+			"file": "src/hoc/captioned-images/index.js",
 			"settings":
 			{
-				"buffer_size": 1683,
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/hoc/captioned-images/hoc.js",
+			"settings":
+			{
+				"buffer_size": 897,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "demo/examples/example/autoplay.js",
+			"file": "dist/captioned.css",
 			"settings":
 			{
-				"buffer_size": 3467,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dist/styles.css",
-			"settings":
-			{
-				"buffer_size": 17065,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 1246,
+				"buffer_size": 4554,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -688,10 +678,21 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/reactjs/react-awesome-slider"
+		"/var/www/html/reactjs/react-awesome-slider",
+		"/var/www/html/reactjs/react-awesome-slider/demo",
+		"/var/www/html/reactjs/react-awesome-slider/src"
 	],
 	"file_history":
 	[
+		"/var/www/html/reactjs/react-awesome-slider/src/core/styles.scss",
+		"/var/www/html/reactjs/react-awesome-slider/demo/examples/example/images.js",
+		"/var/www/html/reactjs/react-awesome-slider/src/core/media.js",
+		"/var/www/html/reactjs/react-awesome-slider/src/core/Slider.js",
+		"/var/www/html/reactjs/react-awesome-slider/src/helpers/components.js",
+		"/var/www/html/reactjs/react-awesome-slider/src/core/bullets.js",
+		"/var/www/html/reactjs/react-awesome-slider/demo/examples/example/autoplay.js",
+		"/var/www/html/reactjs/react-awesome-slider/dist/styles.css",
+		"/var/www/html/reactjs/react-awesome-slider/webpack.config.js",
 		"/var/www/html/reactjs/react-awesome-slider/package.json",
 		"/var/www/html/reactjs/react-awesome-slider/src/components/react-awesome-frame/index.js",
 		"/var/www/html/laravel/core-ui-reactjs/frontend/src/services/Componentes/Formulario2.js",
@@ -810,16 +811,7 @@
 		"/var/www/html/laravel/core-ui-reactjs/frontend/.env",
 		"/var/www/html/laravel/zerodahero/config/app.php",
 		"/var/www/html/laravel/zerodahero/.env",
-		"/var/www/html/laravel/training/app/Http/Controllers/TasksController.php",
-		"/var/www/html/laravel/training/routes/web.php",
-		"/var/www/html/laravel/training/routes/console.php",
-		"/var/www/html/laravel/training/routes/channels.php",
-		"/var/www/html/laravel/training/routes/api.php",
-		"/var/www/html/laravel/sportski-klub/routes/web.php",
-		"/home/luis/Documentos/workspace/xre/grails-app/conf/ApplicationResources.groovy",
-		"/home/luis/Documentos/workspace/xre/grails-app/conf/BootStrap.groovy",
-		"/home/luis/Documentos/workspace/xre/grails-app/conf/BuildConfig.groovy",
-		"/home/luis/Documentos/workspace/xre/grails-app/conf/Config.groovy"
+		"/var/www/html/laravel/training/app/Http/Controllers/TasksController.php"
 	],
 	"find":
 	{
@@ -837,6 +829,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"captio",
+			"example",
+			"screen",
+			"screens",
+			"renderBox",
+			"media",
+			"children",
+			"range",
 			"index",
 			"Mslider",
 			"awe",
@@ -877,7 +877,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -886,15 +886,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28746,
+						"buffer_size": 28883,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25203,
-								25203
+								6930,
+								6936
 							]
 						],
 						"settings":
@@ -904,55 +904,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 21298.0,
+						"translation.y": 5908.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/core/Slider.js",
+					"file": "demo/examples/example/lettering.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 823,
+						"buffer_size": 3364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								491,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 95.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/helpers/components.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15,
-								15
+								1932,
+								1939
 							]
 						],
 						"settings":
@@ -962,7 +934,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 258.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "demo/examples/example/captioned.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3084,
+								3098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -970,49 +972,47 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/core/bullets.js",
+					"file": "src/hoc/captioned-images/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1683,
+						"buffer_size": 243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								691,
-								691
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JSX/JSX.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 410.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "demo/examples/example/autoplay.js",
+					"file": "src/hoc/captioned-images/hoc.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3467,
+						"buffer_size": 897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								580,
-								580
+								536,
+								536
 							]
 						],
 						"settings":
@@ -1022,27 +1022,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "dist/styles.css",
+					"file": "dist/captioned.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17065,
+						"buffer_size": 4554,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6991,
-								6991
+								653,
+								653
 							]
 						],
 						"settings":
@@ -1052,44 +1052,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4708.0,
+						"translation.y": 220.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1038,
-								1038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
