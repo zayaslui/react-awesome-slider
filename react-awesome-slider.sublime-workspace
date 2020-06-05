@@ -559,7 +559,7 @@
 			"file": "src/hoc/captioned-images/styles.scss",
 			"settings":
 			{
-				"buffer_size": 2794,
+				"buffer_size": 2789,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -592,7 +592,7 @@
 			"file": "dist/captioned.css",
 			"settings":
 			{
-				"buffer_size": 4910,
+				"buffer_size": 4905,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -901,7 +901,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1007,8 +1007,8 @@
 						"selection":
 						[
 							[
-								630,
-								630
+								589,
+								589
 							]
 						],
 						"settings":
@@ -1021,7 +1021,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1030,15 +1030,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2794,
+						"buffer_size": 2789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2685,
-								2685
+								1282,
+								1282
 							]
 						],
 						"settings":
@@ -1048,10 +1048,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1543.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1148,7 +1148,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4910,
+						"buffer_size": 4905,
 						"regions":
 						{
 						},
