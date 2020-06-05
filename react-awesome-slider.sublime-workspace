@@ -559,7 +559,7 @@
 			"file": "src/hoc/captioned-images/styles.scss",
 			"settings":
 			{
-				"buffer_size": 2789,
+				"buffer_size": 2781,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -592,7 +592,7 @@
 			"file": "dist/captioned.css",
 			"settings":
 			{
-				"buffer_size": 4905,
+				"buffer_size": 4893,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -1030,15 +1030,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2789,
+						"buffer_size": 2781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								349,
-								349
+								2612,
+								2612
 							]
 						],
 						"settings":
@@ -1048,7 +1048,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 257.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1148,7 +1148,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4905,
+						"buffer_size": 4893,
 						"regions":
 						{
 						},
@@ -1250,7 +1250,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 60.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
