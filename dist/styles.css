@@ -64,8 +64,7 @@
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center;
-          }
+              justify-content: center; }
     .awssld__startUp img {
       width: 35%;
       height: auto; }
@@ -202,14 +201,6 @@
     .awssld--fill-parent .awssld__container {
       height: 100%;
       padding: 0; }
-  .range-slider__wrap {
-      z-index:1000;
-      margin:0px;
-  }
-  .range-slider {
-      z-index:1000;
-      margin:0px;
-  }  
   .awssld__bullets {
     position: absolute;
     bottom: -40px;
@@ -222,8 +213,7 @@
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-            z-index: 1000; }
+            justify-content: center; }
     .awssld__bullets button {
       padding: 0;
       display: block;
