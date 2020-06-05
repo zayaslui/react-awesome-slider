@@ -16,9 +16,11 @@ export default function CaptionedHoc(WrappedComponent) {
             backgroundColor: screen.backgroundColor,
           }}
         >
-          <div data-type="parrafo">
-            <p>{screen.parrafo}</p>
-          </div>          
+          {screen.parrafo && (
+            <div data-type="parrafo">
+              <p>{screen.parrafo}</p>
+            </div>          
+          )}
           <div data-type="caption">
             <p>{screen.caption}</p>
           </div>

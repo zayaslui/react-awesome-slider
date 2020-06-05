@@ -1,5 +1,6 @@
 .awssld {
-  --caption-background-color: rgba(0, 0, 0, 0.15); }
+  --caption-background-color: rgba(0, 0, 0, 0.15);
+  --caption-background-color2: rgb(19, 113, 214,0.9); }
   .awssld__content [data-type='parrafo'] {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -17,7 +18,7 @@
         -ms-flex-pack: center;
             justify-content: center; }
     .awssld__content [data-type='parrafo'] p {
-      background-color: var(--caption-background-color);
+      background-color: var(--caption-background-color2);
       padding: 10px 20px;
       color: #fff;
       font-weight: bold;
@@ -40,9 +41,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 15px;
+    padding: 20px 15px;
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     left: 0;
     z-index: 100;
     width: 100%;
@@ -53,7 +54,7 @@
         -ms-flex-pack: center;
             justify-content: center; }
     .awssld__content [data-type='caption'] p {
-      background-color: var(--caption-background-color);
+      background-color: var(--caption-background-color2);
       padding: 10px 20px;
       color: #fff;
       font-weight: bold;
@@ -77,11 +78,24 @@
     transition: opacity 275ms ease-out 175ms, -webkit-transform 225ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms;
     transition: transform 225ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms, opacity 275ms ease-out 175ms;
     transition: transform 225ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms, opacity 275ms ease-out 175ms, -webkit-transform 225ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms; }
+  .awssld__content--exit [data-type='parrafo'] p {
+    -webkit-transition: opacity 275ms ease-out 175ms, -webkit-transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms;
+    transition: opacity 275ms ease-out 175ms, -webkit-transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms;
+    transition: transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms, opacity 275ms ease-out 175ms;
+    transition: transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms, opacity 275ms ease-out 175ms, -webkit-transform 400ms cubic-bezier(0.85, 0, 0.85, 0.7) 75ms; }
   .awssld__content--moveLeft [data-type='caption'] p {
     -webkit-transform: translate3d(-50px, 0, 0.01px);
             transform: translate3d(-50px, 0, 0.01px);
     opacity: 0; }
+  .awssld__content--moveLeft [data-type='parrafo'] p {
+    -webkit-transform: translate3d(-50px, 0, 0.01px);
+            transform: translate3d(-50px, 0, 0.01px);
+    opacity: 0; }
   .awssld__content--moveRight [data-type='caption'] p {
+    -webkit-transform: translate3d(50px, 0, 0.01px);
+            transform: translate3d(50px, 0, 0.01px);
+    opacity: 0; }
+  .awssld__content--moveRight [data-type='parrafo'] p {
     -webkit-transform: translate3d(50px, 0, 0.01px);
             transform: translate3d(50px, 0, 0.01px);
     opacity: 0; }
