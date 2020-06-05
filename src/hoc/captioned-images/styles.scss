@@ -4,6 +4,37 @@
   --caption-background-color: rgba(0, 0, 0, 0.15);
 
   &__content {
+        [data-type='parrafo'] {
+      display: flex;
+      padding: 15px;
+      position: absolute;
+      bottom: 50%;
+      left: 0;
+      z-index: 100;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        background-color: var(--caption-background-color);
+        padding: 10px 20px;
+        color: #fff;
+        font-weight: bold;
+        transition: transform 0.425s cubic-bezier(0.05, 0.65, 0.1, 0.95),
+          opacity 300ms ease-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+
+        @media all and (max-width: 600px) {
+          font-size: 16px;
+          line-height: 18px;
+        }
+        @media all and (max-width: 400px) {
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
     [data-type='caption'] {
       display: flex;
       padding: 15px;
@@ -62,5 +93,7 @@
         }
       }
     }
+
   }
+
 }
