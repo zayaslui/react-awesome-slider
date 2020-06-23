@@ -1052,7 +1052,7 @@ export default class AwesomeSlider extends React.Component {
               funcion={ (index) => {
                 this.setState({index:index})
                 let direccion = this.checkIndex(index);
-                console.log(direccion)
+                // console.log(direccion)
                 let info = {index: index, direction: direccion}
                 this.onTransitionRequest('bullet', info.index);
                 this.goTo(info);
