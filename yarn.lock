@@ -2493,6 +2493,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -8114,9 +8119,9 @@ pretty-format@^24.9.0:
     react-is "^16.8.4"
 
 prismjs@^1.9.0:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
-  integrity sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q==
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
+  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -8359,6 +8364,14 @@ react-awesome-button@^6.4.0:
   integrity sha512-2MQemDo1hpld9FTB0qQz8McgI2hwpQSvk9UnGE3LWzB7pcSGFIuF6OpJTBB9Yv6DMcr70Dj+Gu6CFmEHWd2rtQ==
   dependencies:
     web-animation-club "^0.6.0"
+
+react-bootstrap-range-slider@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/react-bootstrap-range-slider/-/react-bootstrap-range-slider-0.3.8.tgz#103c2490cbf6941a63525126a2d90ec097a64aa5"
+  integrity sha512-fvJ3vQUevIuuZNxVIFRSQo2rYq/KRnPy7MopB2bPD6/KfKjJrRTF3uiQ/PW5PsoiwteBoL5dG6lA6EhoUzY0fw==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
 
 react-dom@^16.10.2:
   version "16.10.2"
